@@ -22,15 +22,6 @@ Este proyecto fue desarrollado bajo los estándares de **Virtualización de Tecn
 | **Gestión BD** | phpMyAdmin | Latest |
 | **Orquestación** | Docker Compose | 3.8 |
 
----
-
-## Características Principales
-
-* **Seguridad con Variables de Entorno:** Uso de un archivo `.env` para desacoplar las credenciales sensibles (usuarios y contraseñas) del código fuente.
-* **Persistencia de Datos:** Implementación de **Docker Volumes** para asegurar que los registros de los hongos persistan incluso si los contenedores se detienen o eliminan.
-* **Monitoreo y Logs:** Configuración de bind mounts para el almacenamiento de logs de Nginx y PHP en la máquina host, facilitando el debugging.
-* **Optimización de PHP:** Configuración personalizada mediante `custom.ini` para extender el límite de subida de archivos a **128MB**.
-* **Diseño de Fantasía:** Interfaz desarrollada con CSS avanzado para simular un pergamino antiguo con efectos de "glow" y tipografía clásica.
 
 ---
 
